@@ -1,0 +1,6 @@
+{
+  "name": "Apex RAW Pro Camera",
+  "description": "Ultra-advanced Android camera application unlocking manual sensor control, uncompressed 14-bit RAW DNG, and edge-to-edge pro interface.",
+  "requestFramePermissions": ["CAMERA", "RECORD_AUDIO", "NOTIFICATIONS"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
