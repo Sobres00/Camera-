@@ -4,43 +4,32 @@ Aplicación de cámara nativa ultra avanzada para Android con acceso manual tota
 
 ---
 
-## 🚀 Cómo instalarla en tu celular Android
+## 🚀 Cómo abrirla o instalarla en tu celular
 
-Tienes **dos formas** de tenerla funcionando en tu teléfono:
+### Forma 1: Enlace Público Directo (Para probarla o instalarla ya mismo)
+El enlace anterior requería inicio de sesión interno. Este es el **enlace público abierto para cualquier celular**:
+👉 **`https://ais-pre-c7fv6dgj6owv3szou5ksff-610461222249.us-west2.run.app`**
 
-### Forma 1: Instalación Inmediata (PWA Nativa a Pantalla Completa)
-No necesitas computadora ni esperar compilaciones:
-1. Abre este enlace en el navegador **Google Chrome** de tu celular:
-   👉 **`https://ais-dev-c7fv6dgj6owv3szou5ksff-610461222249.us-west2.run.app`**
-2. Toca el menú de **tres puntos de Chrome (⋮)** en la esquina superior derecha.
-3. Selecciona **«Instalar aplicación»** o **«Agregar a la pantalla principal»**.
-4. ¡Listo! Se instalará en tu teléfono como cualquier aplicación nativa, a pantalla completa y con acceso a la cámara.
+1. Abre el enlace arriba en Google Chrome en tu celular.
+2. Toca los **tres puntos (⋮)** de Chrome arriba a la derecha.
+3. Toca **«Instalar aplicación»** o **«Agregar a la pantalla principal»**.
+4. ¡Listo! Se abrirá a pantalla completa como una app nativa con cámara activa.
 
 ---
 
 ### Forma 2: Descargar el archivo `.APK` desde GitHub Actions
-1. En este repositorio de GitHub, ve a la pestaña **[Actions](https://github.com/Sobres00/Camera-/actions)**.
-2. Verás el flujo automático **«Compilar APK Android»** (`build-apk.yml`).
-3. Al finalizar, dentro de la sección **Artifacts**, descarga el archivo:
-   📦 **`Apex-RAW-Camera-v1.0-debug.apk`**
+1. En este repositorio de GitHub, ve a la pestaña superior **[Actions](https://github.com/Sobres00/Camera-/actions)**.
+2. Tras la sincronización, verás el flujo automático **«Compilar APK Android»**.
+3. Al terminar (marca verde ✅), entra al trabajo y descarga el archivo:
+   📦 **`Apex-RAW-Camera-v1.0.apk`**
 4. Ábrelo en tu teléfono y toca **Instalar**.
 
 ---
 
-## 🛠️ Características Principales
+## 🛠️ Especificaciones Técnicas
 
-* **Desbloqueo de Resolución Extrema:** Selector directo para `12MP`, `50MP`, `108MP` y **`200MP Ultra RAW`** (archivos `.DNG` puros de 184 MB).
-* **Control Manual Total (Modo PRO):**
-  * **ISO:** 50 a 6400
-  * **Obturador:** 1/8000s a 30 segundos (Modo Bulb / Larga exposición)
-  * **Enfoque:** Automático (AF-C), Macro, Infinito y Manual micrométrico con Lupa 5x/10x
-  * **Balance de Blancos:** En Kelvin y perfiles de luz
-  * **Compensación EV:** -3.0 a +3.0 EV
-* **Asistencia de Enfoque a 60 FPS:**
-  * **Focus Peaking:** Resaltado de silueta de enfoque en cian neón.
-  * **Zebra Stripes:** Cebras animadas para detectar altas luces quemadas (>95%).
-  * **Histograma RGB en vivo:** Monitoreo de canales rojo, verde, azul y luminancia.
-  * **Composición:** Regla de tercios y Espiral Áurea de Fibonacci.
-* **Cámara Silenciosa:** Opción de disparo mudo sin sonido de obturador.
-* **Privacidad Total:** Botón para purgar y eliminar metadatos GPS antes de exportar.
-* **Exportador Lossless:** Descarga en `.DNG` 14-bit, `.TIFF` 16-bit, `.PNG` y `.JPG`.
+* **Resoluciones del Sensor:** `12MP` (Pixel Binning), `50MP` (Ultra Quad), `108MP` (Nonacell) y **`200MP RAW`** (184 MB DNG puro).
+* **Control Manual (Modo PRO):** ISO 50 a 6400, velocidad de 1/8000s a 30s, enfoque manual con lupa 5x/10x, EV y balance de blancos.
+* **Asistencia Pro:** Focus Peaking en cian neón, Cebras de sobreexposición (>95%), Histograma RGB en vivo.
+* **Cámara Silenciosa:** Opción de disparo mudo sin ruido de obturador.
+* **Privacidad Total:** Borrado automático de coordenadas GPS con un toque.
